@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    defaultConfig {
+        applicationId Configs.applicationId
+        versionCode Configs.versionCode
+        versionName Configs.versionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    implementation project(path: ':libraries:uiComponents')
+    
+    implementation Deps.androidx_appcompat
+    implementation Deps.androidx_material
+    implementation Deps.androidx_constraintlayout
+
+    testImplementation Deps.testlib_junit
+    androidTestImplementation Deps.testlib_ext
+    androidTestImplementation Deps.testandroidx_espressocore
+
+}

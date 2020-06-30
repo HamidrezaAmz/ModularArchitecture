@@ -1,0 +1,1 @@
+/Users/reza/AndroidStudioProjects/ArmanVarzesh/ModularArchitectureApp/buildSrc/build/classes/kotlin/main/Configs.class:/Users/reza/AndroidStudioProjects/ArmanVarzesh/ModularArchitectureApp/buildSrc/build/classes/kotlin/main/Deps.class:/Users/reza/AndroidStudioProjects/ArmanVarzesh/ModularArchitectureApp/buildSrc/build/classes/kotlin/main/Versions.class

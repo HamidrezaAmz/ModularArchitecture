@@ -1,0 +1,14 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+
+    implementation project(path: ':libraries:uiComponents')
+
+    implementation Deps.androidx_appcompat
+    implementation Deps.androidx_constraintlayout
+
+    testImplementation Deps.testlib_junit
+    androidTestImplementation Deps.testlib_ext
+    androidTestImplementation Deps.testandroidx_espressocore
+
+}

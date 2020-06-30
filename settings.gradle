@@ -1,0 +1,8 @@
+include ':libraries:viewModels'
+include ':libraries:uiComponents'
+rootProject.name='ModularArchitectureApp'
+include ':app'
+include ':features:dashboard'
+include ':features:login'
+include ':libraries:baseClasses'
+include ':libraries:models'

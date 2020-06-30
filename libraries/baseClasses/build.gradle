@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+
+    implementation Deps.androidx_appcompat
+    implementation Deps.jakewharton_butterknife
+    annotationProcessor Deps.jakewharton_butterknife_compiler
+
+    testImplementation Deps.testlib_junit
+
+    androidTestImplementation Deps.testandroidx_runner
+    androidTestImplementation Deps.testandroidx_rules
+    androidTestImplementation Deps.testandroidx_espressocore
+
+}
