@@ -1,3 +1,4 @@
+include ':libraries:utils'
 include ':libraries:viewModels'
 include ':libraries:uiComponents'
 rootProject.name='ModularArchitectureApp'

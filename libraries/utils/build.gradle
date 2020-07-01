@@ -1,0 +1,10 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+
+    implementation Deps.androidx_appcompat
+
+    testImplementation Deps.testlib_junit
+    androidTestImplementation Deps.testlib_ext
+    androidTestImplementation Deps.testandroidx_espressocore
+}

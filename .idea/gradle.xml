@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/libraries/baseClasses" />
             <option value="$PROJECT_DIR$/libraries/models" />
             <option value="$PROJECT_DIR$/libraries/uiComponents" />
+            <option value="$PROJECT_DIR$/libraries/utils" />
             <option value="$PROJECT_DIR$/libraries/viewModels" />
           </set>
         </option>
