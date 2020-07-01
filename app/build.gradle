@@ -19,7 +19,7 @@ android {
 dependencies {
 
     implementation project(path: ':libraries:uiComponents')
-    
+
     implementation Deps.androidx_appcompat
     implementation Deps.androidx_material
     implementation Deps.androidx_constraintlayout
