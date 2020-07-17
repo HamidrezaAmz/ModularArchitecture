@@ -1,10 +1,21 @@
 package modularization.libraries.uicomponents;
 
 import android.content.Context;
-import android.widget.Button;
+import android.util.AttributeSet;
 
-public class MagicalButton extends androidx.appcompat.widget.AppCompatButton {
+import androidx.appcompat.widget.AppCompatButton;
+
+public class MagicalButton extends AppCompatButton {
+
     public MagicalButton(Context context) {
         super(context);
+    }
+
+    public MagicalButton(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    public MagicalButton(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
     }
 }

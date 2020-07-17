@@ -6,6 +6,8 @@ dependencies {
     implementation Deps.jakewharton_butterknife
     annotationProcessor Deps.jakewharton_butterknife_compiler
 
+    implementation Deps.lifecycle_extensions
+
     testImplementation Deps.testlib_junit
 
     androidTestImplementation Deps.testandroidx_runner

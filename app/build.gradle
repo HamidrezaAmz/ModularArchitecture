@@ -18,11 +18,16 @@ android {
 
 dependencies {
 
+    implementation project(path: ':features:splash')
+    implementation project(path: ':features:intro')
+
     implementation project(path: ':libraries:uiComponents')
 
     implementation Deps.androidx_appcompat
     implementation Deps.androidx_material
     implementation Deps.androidx_constraintlayout
+    implementation Deps.nav_ui
+    implementation Deps.nav_fragment
 
     testImplementation Deps.testlib_junit
     androidTestImplementation Deps.testlib_ext

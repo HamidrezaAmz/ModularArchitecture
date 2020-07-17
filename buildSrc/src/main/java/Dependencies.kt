@@ -31,6 +31,12 @@ object Versions {
 
     val jakewharton_butterknife = "10.2.1"
     val jakewharton_butterknife_compiler = "10.2.1"
+
+    val navigation = "2.3.0"
+
+    val lifecycle_extensions_version = "2.2.0"
+    val lifecycle_viewmodel_version = "1.1.0"
+    val lifecycle_livedata_version = "1.1.0"
 }
 
 object Deps {
@@ -56,4 +62,10 @@ object Deps {
     val jakewharton_butterknife = "com.jakewharton:butterknife:${Versions.jakewharton_butterknife}"
     val jakewharton_butterknife_compiler = "com.jakewharton:butterknife-compiler:${Versions.jakewharton_butterknife_compiler}"
 
+    val nav_ui = "androidx.navigation:navigation-ui:${Versions.navigation}"
+    val nav_fragment = "androidx.navigation:navigation-fragment:${Versions.navigation}"
+
+    val lifecycle_extensions = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycle_extensions_version}"
+    val lifecycle_viewmodel = "androidx.lifecycle:lifecycle-viewmodel:$${Versions.lifecycle_viewmodel_version}"
+    val lifecycle_livedata = "androidx.lifecycle:lifecycle-livedata:${Versions.lifecycle_livedata_version}"
 }

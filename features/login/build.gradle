@@ -6,6 +6,8 @@ dependencies {
 
     implementation Deps.androidx_appcompat
     implementation Deps.androidx_constraintlayout
+    implementation Deps.nav_ui
+    implementation Deps.nav_fragment
 
     testImplementation Deps.testlib_junit
     androidTestImplementation Deps.testlib_ext

@@ -8,9 +8,11 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/baseClasses/baseClasses.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/baseClasses/baseClasses.iml" group="ModularArchitectureApp/libraries/baseClasses" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/dashboard/dashboard.iml" filepath="$PROJECT_DIR$/.idea/modules/features/dashboard/dashboard.iml" group="ModularArchitectureApp/features/dashboard" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/features.iml" group="ModularArchitectureApp/features" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/intro/intro.iml" filepath="$PROJECT_DIR$/.idea/modules/features/intro/intro.iml" group="ModularArchitectureApp/features/intro" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/libraries.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/libraries.iml" group="ModularArchitectureApp/libraries" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/login/login.iml" filepath="$PROJECT_DIR$/.idea/modules/features/login/login.iml" group="ModularArchitectureApp/features/login" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/models/models.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/models/models.iml" group="ModularArchitectureApp/libraries/models" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/splash/splash.iml" filepath="$PROJECT_DIR$/.idea/modules/features/splash/splash.iml" group="ModularArchitectureApp/features/splash" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/uiComponents/uiComponents.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/uiComponents/uiComponents.iml" group="ModularArchitectureApp/libraries/uiComponents" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/utils/utils.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/utils/utils.iml" group="ModularArchitectureApp/libraries/utils" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/viewModels/viewModels.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/viewModels/viewModels.iml" group="ModularArchitectureApp/libraries/viewModels" />
